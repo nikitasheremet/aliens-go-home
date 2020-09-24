@@ -1,6 +1,5 @@
 import React from "react";
-import Sky from "./Sky";
-import Ground from "./Ground";
+import { Sky, Ground, CannonBase } from "./";
 
 export default () => {
   const viewBox = [
@@ -17,6 +16,7 @@ export default () => {
     >
       <Sky />
       <Ground />
+      <CannonBase />
       <circle cx={0} cy={0} r={50} />
     </svg>
   );
